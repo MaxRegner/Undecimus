@@ -7,68 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2101395521A09BB700F9C5F2 /* hideventsystem.c in Sources */ = {isa = PBXBuildFile; fileRef = 2101395321A09BB700F9C5F2 /* hideventsystem.c */; settings = {COMPILER_FLAGS = "-Wno-everything"; }; };
-		2116449A21737F9500250744 /* JailbreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C0FC6E21369EB700849420 /* JailbreakViewController.m */; };
-		212D8844216E4C4800A36DA5 /* find_port.c in Sources */ = {isa = PBXBuildFile; fileRef = 212D8842216E4C4700A36DA5 /* find_port.c */; };
-		212D8847216E4DF600A36DA5 /* early_kalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 212D8846216E4DF600A36DA5 /* early_kalloc.c */; };
-		212D884A216E4EBF00A36DA5 /* async_wake.c in Sources */ = {isa = PBXBuildFile; fileRef = 212D8849216E4EBE00A36DA5 /* async_wake.c */; };
-		213E78262208654700FDF3B7 /* necp.c in Sources */ = {isa = PBXBuildFile; fileRef = 213E78252208654700FDF3B7 /* necp.c */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations"; }; };
-		213E7828220865A100FDF3B7 /* voucher_swap-poc.c in Sources */ = {isa = PBXBuildFile; fileRef = 213E7827220865A100FDF3B7 /* voucher_swap-poc.c */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function"; }; };
-		214A1776224EBE5400588EC4 /* lzssdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 214A1773224EBE5400588EC4 /* lzssdec.cpp */; settings = {COMPILER_FLAGS = "-Wno-everything"; }; };
-		214A1777224EBE5400588EC4 /* kerneldec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 214A1774224EBE5400588EC4 /* kerneldec.cpp */; settings = {COMPILER_FLAGS = "-Wno-everything"; }; };
-		2150A9CD22021330001C8677 /* voucher_swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9CC22021330001C8677 /* voucher_swap.c */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function"; }; };
-		2150A9DC22021348001C8677 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9CE22021347001C8677 /* log.c */; };
-		2150A9DD22021348001C8677 /* platform_match.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9CF22021347001C8677 /* platform_match.c */; };
-		2150A9DE22021348001C8677 /* platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9D422021347001C8677 /* platform.c */; };
-		2150A9DF22021348001C8677 /* kernel_slide.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9D622021348001C8677 /* kernel_slide.c */; };
-		2150A9E022021348001C8677 /* parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9D922021348001C8677 /* parameters.c */; };
-		2150A9E122021348001C8677 /* kernel_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9DA22021348001C8677 /* kernel_alloc.c */; };
-		2150A9E222021348001C8677 /* kernel_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 2150A9DB22021348001C8677 /* kernel_memory.c */; };
-		2163BE2122A1DB4700518DD9 /* libsandbox.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2163BE2022A1DB4700518DD9 /* libsandbox.tbd */; };
-		216F3F3D2228776E007DC1BC /* kernel_call.c in Sources */ = {isa = PBXBuildFile; fileRef = 216F3F362228776D007DC1BC /* kernel_call.c */; };
-		216F3F3E2228776E007DC1BC /* user_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 216F3F372228776D007DC1BC /* user_client.c */; };
-		216F3F3F2228776E007DC1BC /* pac.c in Sources */ = {isa = PBXBuildFile; fileRef = 216F3F3A2228776D007DC1BC /* pac.c */; };
-		216F3F402228776E007DC1BC /* kc_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 216F3F3C2228776E007DC1BC /* kc_parameters.c */; };
-		216FDA1E220C5F5C0086D802 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 216FDA1D220C5F5C0086D802 /* libz.tbd */; };
-		2170BD3B21B193800059BD10 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 211D0D84218DEF3E008745D8 /* libMobileGestalt.tbd */; };
-		2170BDCD21B332FC0059BD10 /* SpringBoardServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C0FC902136A46500849420 /* SpringBoardServices.framework */; };
-		2171C4012222E3BB004E45C7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2171C4002222E3BB004E45C7 /* SystemConfiguration.framework */; };
-		2199B8E9226B40C600A8255D /* kalloc_crash.c in Sources */ = {isa = PBXBuildFile; fileRef = 2199B8E8226B40C600A8255D /* kalloc_crash.c */; };
-		219C90A0228703DA00AFA38A /* jailbreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 219C909F228703DA00AFA38A /* jailbreak.m */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function -Wno-deprecated-declarations"; }; };
-		21A97FD02148103C00DC0023 /* remote_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 21A97FC62148103B00DC0023 /* remote_memory.c */; };
-		21A97FD12148103C00DC0023 /* KernelExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A97FC82148103B00DC0023 /* KernelExecution.m */; };
-		21A97FD32148103C00DC0023 /* KernelUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 21A97FCC2148103B00DC0023 /* KernelUtilities.c */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations"; }; };
-		21A97FD42148103C00DC0023 /* remote_call.c in Sources */ = {isa = PBXBuildFile; fileRef = 21A97FCD2148103B00DC0023 /* remote_call.c */; };
-		21B421902261302F004C17CD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B4218F2261302F004C17CD /* MobileCoreServices.framework */; };
-		21BB9804222F05C40012AF40 /* machswap2_pwn.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BB9802222F05C40012AF40 /* machswap2_pwn.m */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function"; }; };
-		21C0FC6C21369EB700849420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C0FC6B21369EB700849420 /* AppDelegate.m */; };
-		21C0FC7421369EB800849420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C0FC7321369EB800849420 /* Assets.xcassets */; };
-		21C0FC7721369EB800849420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C0FC7521369EB800849420 /* LaunchScreen.storyboard */; };
-		21C0FC7A21369EB800849420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C0FC7921369EB800849420 /* main.m */; };
-		21C0FC8721369EE900849420 /* KernelMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C0FC8021369EE900849420 /* KernelMemory.c */; };
-		21C0FC8A21369EE900849420 /* KernelOffsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C0FC8621369EE900849420 /* KernelOffsets.m */; };
-		21C130E0214BC2880021AA9D /* unlocknvram.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C130DE214BC2880021AA9D /* unlocknvram.c */; };
-		21C130EB214C03690021AA9D /* CreditsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C130EA214C03690021AA9D /* CreditsTableViewController.m */; };
-		21C13119214D268F0021AA9D /* multi_path_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C13117214D268F0021AA9D /* multi_path_sploit.c */; settings = {COMPILER_FLAGS = "-Wno-everything"; }; };
-		21C1312F214E69F80021AA9D /* empty_list_sploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C0FC8521369EE900849420 /* empty_list_sploit.c */; settings = {COMPILER_FLAGS = "-Wno-everything"; }; };
-		21CC3905227CDFDE0072D572 /* prefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CC3902227CDFDE0072D572 /* prefs.m */; };
-		21CC3906227CDFDE0072D572 /* diagnostics.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CC3903227CDFDE0072D572 /* diagnostics.m */; };
-		21F4D70E21FC7A590070D5E0 /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 21F4D70C21FC7A590070D5E0 /* patchfinder64.c */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function"; }; };
-		21FED6AB2168F8060024BC95 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C130E5214BDDE20021AA9D /* SettingsTableViewController.m */; };
-		21FF63CB224E5FDC008B76D9 /* offsetcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 21FF63C9224E5FDC008B76D9 /* offsetcache.c */; };
-		21FFE0F8222E4C0600EC59B2 /* machswap_offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FFE0F6222E4C0600EC59B2 /* machswap_offsets.m */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function"; }; };
-		21FFE0F9222E4C0600EC59B2 /* machswap_pwn.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FFE0F7222E4C0600EC59B2 /* machswap_pwn.m */; settings = {COMPILER_FLAGS = "-Wno-unused-variable -Wno-unused-function"; }; };
-		222AD59321FA731800DCBA2A /* FakeApt.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AD59221FA731800DCBA2A /* FakeApt.m */; };
-		225D142221E052960045493D /* ArchiveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D142121E052960045493D /* ArchiveFile.m */; };
-		226689DD21EC1C5A00262F66 /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 226689DC21EC1C5A00262F66 /* libarchive.2.tbd */; };
-		22C546AB21A8A8FD00EFC09C /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C546AA21A8A8FD00EFC09C /* utils.m */; };
-		22CFED9221CDFE6B00A216BE /* libmis.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CFED9121CDFE6B00A216BE /* libmis.tbd */; };
-		22F91CDB21E02CF300B2FCAE /* inject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F91CD921E02CF200B2FCAE /* inject.m */; };
-		22F91CE321E033A500B2FCAE /* libsnappy.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F91CE221E033A500B2FCAE /* libsnappy.c */; };
-		51435081229E2F0C00446FBA /* Settings-Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 51435080229E2F0C00446FBA /* Settings-Light.png */; };
-		51F1DB24229ED54400B81A6F /* DarkMode-Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F1DB22229ED54300B81A6F /* DarkMode-Dark.png */; };
-		51F1DB25229ED54400B81A6F /* Settings-Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 51F1DB23229ED54400B81A6F /* Settings-Dark.png */; };
-		8D592A68218E47F60035D2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D592A67218E47F60035D2BC /* Main.storyboard */; };
+		5A0D5D5E1B0B5C5B00C4F1C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D5D5D1B0B5C5B00C4F1C4 /* AppDelegate.swift */; };
+		5A0D5D601B0B5C5B00C4F1C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0D5D5F1B0B5C5B00C4F1C4 /* ViewController.swift */; };
+		5A0D5D621B0B5C5B00C4F1C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D5D5C1B0B5C5B00C4F1C4 /* Main.storyboard */; };
+		5A0D5D641B0B5C5B00C4F1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D5D611B0B5C5B00C4F1C4 /* Assets.xcassets */; };
+		5A0D5D661B0B5C5B00C4F1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D5D631B0B5C5B00C4F1C4 /* LaunchScreen.storyboard */; };
+		5A0D5D681B0B5C5B00C4F1C4 /* Base */ = {isa = PBXBuildFile; fileRef = 5A0D5D671B0B5C5B00C4F1C4 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A0D5D5B1B0B5C5B00C4F1C4 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,17 +25,15 @@
 		211C372521CE2DD700ADBEA2 /* reboot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reboot.h; sourceTree = "<group>"; };
 		211C372721CE2DD800ADBEA2 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
 		211C372921CE2DD800ADBEA2 /* proc_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc_info.h; sourceTree = "<group>"; };
-		211C372A21CE2DD800ADBEA2 /* kern_control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kern_control.h; sourceTree = "<group>"; };
-		211D0D84218DEF3E008745D8 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
-		212D8842216E4C4700A36DA5 /* find_port.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = find_port.c; sourceTree = "<group>"; };
-		212D8843216E4C4700A36DA5 /* find_port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = find_port.h; sourceTree = "<group>"; };
-		212D8845216E4DF600A36DA5 /* early_kalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = early_kalloc.h; sourceTree = "<group>"; };
-		212D8846216E4DF600A36DA5 /* early_kalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = early_kalloc.c; sourceTree = "<group>"; };
-		212D8848216E4EBE00A36DA5 /* async_wake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async_wake.h; sourceTree = "<group>"; };
-		212D8849216E4EBE00A36DA5 /* async_wake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = async_wake.c; sourceTree = "<group>"; };
-		21395357217CBA1000B17F8D /* MobileGestalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileGestalt.h; sourceTree = "<group>"; };
-		213E78242208654700FDF3B7 /* necp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = necp.h; sourceTree = "<group>"; };
-		213E78252208654700FDF3B7 /* necp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = necp.c; sourceTree = "<group>"; };
+		211C372B21CE2DD800ADBEA2 /* proc_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc_info.c; sourceTree = "<group>"; };
+		211C372D21CE2DD800ADBEA2 /* route.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = route.c; sourceTree = "<group>"; };
+		211C372F21CE2DD800ADBEA2 /* reboot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reboot.c; sourceTree = "<group>"; };
+		211C373121CE2DD800ADBEA2 /* hideventsystem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hideventsystem.c; sourceTree = "<group>"; };
+		211C373321CE2DD800ADBEA2 /* hideventsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hideventsystem.h; sourceTree = "<group>"; };
+		211C373521CE2DD800ADBEA2 /* proc_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc_info.h; sourceTree = "<group>"; };
+		211C373721CE2DD800ADBEA2 /* proc_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc_info.c; sourceTree = "<group>"; };
+		211C373921CE2DD800ADBEA2 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		211C373B21CE2DD800ADBEA2 /* route.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = route.c; sourceTree
 		213E7827220865A100FDF3B7 /* voucher_swap-poc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "voucher_swap-poc.c"; sourceTree = "<group>"; };
 		213E7829220865BF00FDF3B7 /* voucher_swap-poc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "voucher_swap-poc.h"; sourceTree = "<group>"; };
 		214A1772224EBE5400588EC4 /* kerneldec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kerneldec.h; path = kerneldec/kerneldec.h; sourceTree = SOURCE_ROOT; };
@@ -133,31 +79,15 @@
 		21A97FC42148103A00DC0023 /* KernelExecution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelExecution.h; sourceTree = "<group>"; };
 		21A97FC52148103B00DC0023 /* remote_call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = remote_call.h; sourceTree = "<group>"; };
 		21A97FC62148103B00DC0023 /* remote_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = remote_memory.c; sourceTree = "<group>"; };
-		21A97FC82148103B00DC0023 /* KernelExecution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KernelExecution.m; sourceTree = "<group>"; };
-		21A97FC92148103B00DC0023 /* KernelUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelUtilities.h; sourceTree = "<group>"; };
-		21A97FCC2148103B00DC0023 /* KernelUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KernelUtilities.c; sourceTree = "<group>"; };
-		21A97FCD2148103B00DC0023 /* remote_call.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = remote_call.c; sourceTree = "<group>"; };
-		21A97FCE2148103C00DC0023 /* remote_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = remote_memory.h; sourceTree = "<group>"; };
-		21B4218F2261302F004C17CD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		21BB9802222F05C40012AF40 /* machswap2_pwn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = machswap2_pwn.m; sourceTree = "<group>"; };
-		21BB9803222F05C40012AF40 /* machswap2_pwn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machswap2_pwn.h; sourceTree = "<group>"; };
-		21C0FC6721369EB700849420 /* Undecimus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Undecimus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C0FC6A21369EB700849420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		21C0FC6B21369EB700849420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		21C0FC6D21369EB700849420 /* JailbreakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakViewController.h; sourceTree = "<group>"; };
-		21C0FC6E21369EB700849420 /* JailbreakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
-		21C0FC7321369EB800849420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21C0FC7621369EB800849420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		21C0FC7821369EB800849420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21C0FC7921369EB800849420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21C0FC8021369EE900849420 /* KernelMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KernelMemory.c; sourceTree = "<group>"; };
-		21C0FC8121369EE900849420 /* empty_list_sploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty_list_sploit.h; sourceTree = "<group>"; };
-		21C0FC8221369EE900849420 /* KernelOffsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelOffsets.h; sourceTree = "<group>"; };
-		21C0FC8321369EE900849420 /* KernelMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KernelMemory.h; sourceTree = "<group>"; };
-		21C0FC8521369EE900849420 /* empty_list_sploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = empty_list_sploit.c; sourceTree = "<group>"; };
-		21C0FC8621369EE900849420 /* KernelOffsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KernelOffsets.m; sourceTree = "<group>"; };
-		21C0FC8B21369FC500849420 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		21C0FC8F2136A2C500849420 /* iokit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iokit.h; sourceTree = "<group>"; };
+		21A97FC72148103B00DC0023 /* remote_call.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = remote_call.c; sourceTree = "<group>"; };
+		21A97FC82148103B00DC0023 /* KernelExecution.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KernelExecution.c; sourceTree = "<group>"; };
+		21A97FC92148103B00DC0023 /* remote_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = remote_memory.h; sourceTree = "<group>"; };
+		21A97FCA2148103B00DC0023 /* kernel_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_memory.c; sourceTree = "<group>"; };
+		21A97FCB2148103B00DC0023 /* kernel_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_memory.h; sourceTree = "<group>"; };
+		21A97FCC2148103B00DC0023 /* kernel_slide.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_slide.c; sourceTree = "<group>"; };
+		21A97FCD2148103B00DC0023 /* kernel_slide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_slide.h; sourceTree = "<group>"; };
+		21A97FCE2148103B00DC0023 /* kernel_call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_call.h; sourceTree = "<group>"; };
+		21A97FCF2148103B00DC0023 /* kernel_call.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path =
 		21C0FC902136A46500849420 /* SpringBoardServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpringBoardServices.framework; sourceTree = "<group>"; };
 		21C130DE214BC2880021AA9D /* unlocknvram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unlocknvram.c; sourceTree = "<group>"; };
 		21C130DF214BC2880021AA9D /* unlocknvram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unlocknvram.h; sourceTree = "<group>"; };
@@ -330,120 +260,61 @@
 		21675B62214A68B700D20E2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2163BE2022A1DB4700518DD9 /* libsandbox.tbd */,
-				21B4218F2261302F004C17CD /* MobileCoreServices.framework */,
-				2171C4002222E3BB004E45C7 /* SystemConfiguration.framework */,
-				216FDA1D220C5F5C0086D802 /* libz.tbd */,
-				226689DC21EC1C5A00262F66 /* libarchive.2.tbd */,
-				22CFED9121CDFE6B00A216BE /* libmis.tbd */,
-				211D0D84218DEF3E008745D8 /* libMobileGestalt.tbd */,
+				21675B63214A68B700D20E2B /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		216F3F342228774D007DC1BC /* kernel_call */ = {
+		21675B63214A68B700D20E2B /* CoreFoundation.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreFoundation.framework;
+			path = System/Library/Frameworks/CoreFoundation.framework;
+			sourceTree = SDKROOT;
+		};
+		21675B64214A68B700D20E2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				216F3F3C2228776E007DC1BC /* kc_parameters.c */,
-				216F3F3B2228776D007DC1BC /* kc_parameters.h */,
-				216F3F362228776D007DC1BC /* kernel_call.c */,
-				216F3F392228776D007DC1BC /* kernel_call.h */,
-				216F3F3A2228776D007DC1BC /* pac.c */,
-				216F3F382228776D007DC1BC /* pac.h */,
-				216F3F372228776D007DC1BC /* user_client.c */,
-				216F3F352228776D007DC1BC /* user_client.h */,
+				21675B65214A68B700D20E2B /* voucher_swap */,
 			);
-			name = kernel_call;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		2170BD3421B192750059BD10 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				2163BE1F22A1DB2400518DD9 /* sandbox.h */,
-				219BF90422832DBC00A4B827 /* UIProgressHUD.h */,
-				2150A9E322021381001C8677 /* mach_vm.h */,
-				2150A9E422021381001C8677 /* ipc_port.h */,
-				2150A9E52202138A001C8677 /* IOKitLib.h */,
-				226689DA21EC145000262F66 /* archive.h */,
-				226689DB21EC145000262F66 /* libproc.h */,
-				211C372621CE2DD800ADBEA2 /* net */,
-				211C372521CE2DD700ADBEA2 /* reboot.h */,
-				211C372821CE2DD800ADBEA2 /* sys */,
-				21C0FC8B21369FC500849420 /* common.h */,
-				21C0FC8F2136A2C500849420 /* iokit.h */,
-				21E9642421A1DD6F000625F7 /* NSTask.h */,
-				21395357217CBA1000B17F8D /* MobileGestalt.h */,
-			);
-			path = include;
+		21675B65214A68B700D20E2B /* voucher_swap */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = "compiled.mach-o.executable";
+			name = voucher_swap;
+			path = voucher_swap;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21C0FC8121369EE900849420 /* empty_list_sploit.h */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.h;
+			name = empty_list_sploit.h;
+			path = "empty_list_sploit/empty_list_sploit.h";
 			sourceTree = "<group>";
 		};
-		2170BD3621B192B90059BD10 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				21FED6A42168DB460024BC95 /* Painting_With_Chocolate.ttf */,
-				51F1DB26229F2AD200B81A6F /* RobotoMono-Regular.ttf */,
-				51F1DB27229F2BC700B81A6F /* RobotoMono-Bold.ttf */,
-				51F1DB28229F31C400B81A6F /* DarkMode-Light.png */,
-				51F1DB22229ED54300B81A6F /* DarkMode-Dark.png */,
-				51F1DB23229ED54400B81A6F /* Settings-Dark.png */,
-				51435080229E2F0C00446FBA /* Settings-Light.png */,
-				51F1DB29229F31D300B81A6F /* DarkMode-Light.png */,
-			);
-			path = resources;
+		21C0FC8521369EE900849420 /* empty_list_sploit.c */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.c;
+			name = empty_list_sploit.c;
+			path = "empty_list_sploit/empty_list_sploit.c";
 			sourceTree = "<group>";
 		};
-		2170BDCB21B32FF10059BD10 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				2199B8E6226B40BD00A8255D /* kalloc_crash */,
-				214A1771224EBE4900588EC4 /* kerneldec */,
-				21FF63C8224E5FCE008B76D9 /* offset-cache */,
-				21FFE0F3222E4B1600EC59B2 /* machswap */,
-				216F3F342228774D007DC1BC /* kernel_call */,
-				213E78222208652B00FDF3B7 /* necp */,
-				2150A9CA220212F8001C8677 /* voucher_swap */,
-				2150A9C9220212E6001C8677 /* deja_xnu */,
-				2150A9C8220212D1001C8677 /* async_wake */,
-				2150A9C7220212BC001C8677 /* multi_path */,
-				2150A9C6220212A6001C8677 /* empty_list */,
-				21F4D70B21FC7A490070D5E0 /* patchfinder64 */,
-				22F91CDC21E02D0B00B2FCAE /* snappy */,
-				22F91CD821E02CC700B2FCAE /* injector */,
-				21C0FC6A21369EB700849420 /* AppDelegate.h */,
-				21C0FC6B21369EB700849420 /* AppDelegate.m */,
-				225D142321E055E90045493D /* ArchiveFile.h */,
-				225D142121E052960045493D /* ArchiveFile.m */,
-				21A97FC42148103A00DC0023 /* KernelExecution.h */,
-				21A97FC82148103B00DC0023 /* KernelExecution.m */,
-				21C0FC8021369EE900849420 /* KernelMemory.c */,
-				21C0FC8321369EE900849420 /* KernelMemory.h */,
-				21C0FC8221369EE900849420 /* KernelOffsets.h */,
-				21C0FC8621369EE900849420 /* KernelOffsets.m */,
-				21A97FC92148103B00DC0023 /* KernelUtilities.h */,
-				21A97FCC2148103B00DC0023 /* KernelUtilities.c */,
-				21C0FC7921369EB800849420 /* main.m */,
-				21A97FC52148103B00DC0023 /* remote_call.h */,
-				21A97FCD2148103B00DC0023 /* remote_call.c */,
-				21A97FC62148103B00DC0023 /* remote_memory.c */,
-				21A97FCE2148103C00DC0023 /* remote_memory.h */,
-				21C0FC6D21369EB700849420 /* JailbreakViewController.h */,
-				21C0FC6E21369EB700849420 /* JailbreakViewController.m */,
-				21C130E4214BDDE20021AA9D /* SettingsTableViewController.h */,
-				21C130E5214BDDE20021AA9D /* SettingsTableViewController.m */,
-				21C130E9214C03690021AA9D /* CreditsTableViewController.h */,
-				21C130EA214C03690021AA9D /* CreditsTableViewController.m */,
-				21C130DE214BC2880021AA9D /* unlocknvram.c */,
-				21C130DF214BC2880021AA9D /* unlocknvram.h */,
-				22C546AC21A8A91A00EFC09C /* utils.h */,
-				22C546AA21A8A8FD00EFC09C /* utils.m */,
-				222AD59421FA732A00DCBA2A /* FakeApt.h */,
-				222AD59221FA731800DCBA2A /* FakeApt.m */,
-				21CC3901227CDFDE0072D572 /* prefs.h */,
-				21CC3902227CDFDE0072D572 /* prefs.m */,
-				21CC3904227CDFDE0072D572 /* diagnostics.h */,
-				21CC3903227CDFDE0072D572 /* diagnostics.m */,
-				219C909E228703DA00AFA38A /* jailbreak.h */,
-				219C909F228703DA00AFA38A /* jailbreak.m */,
+		21C13117214D268F0021AA9D /* multi_path_sploit.c */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType = sourcecode.c.c;
+			name = multi_path_sploit.c;
+			path = "multi_path_sploit/multi_path_sploit.c";
+			sourceTree = "<group>";
+		};
+		21C13118214D268F0021AA9D /* multi_path_sploit.h */ = {
+			isa = PBXFileReference;
+			fileEncoding = 4;
+			lastKnownFileType
 			);
 			path = source;
 			sourceTree = "<group>";
